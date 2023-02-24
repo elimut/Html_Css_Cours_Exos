@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    color: rgb(15,15,15);
+    background: rgb(179, 164, 170);
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    color: #78668E;
+}
+p{
+    font-size: 16px;
+    line-height: 20px;
+}
+#my-header{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    color: #78668E;
+    background-image: url(https://picsum.photos/seed/picsum/1300/600);
+    background-repeat: no-repeat;
+}
+#my-header a:hover {
+    color: rgb(184, 42, 66);
+}
+.onglet {
+    font-weight: 300;
+    padding: 40px;
+    text-align: center;
+    }
+
+.onglet img {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#my-footer {
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: purple;
+    }
+
+#my-footer :hover {
+    color:pink;
+}
+
+#my-footer a{
+        color: purple;
+        font-size: 20px ;
+}   
+#my-footer a:hover{
+    color: whitesmoke;
+}  
+
+li{
+   display: inline-block;
+}
+
+.onglet img:hover{
+    width: 200px;
+    transition: 0.5s;
+    transition: all 1s ease-out;
+    opacity: 0;
+    transform: scale(3) rotate(10deg);
+}
+/* revoir hover */
+

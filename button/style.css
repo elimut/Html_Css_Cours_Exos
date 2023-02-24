@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 35px
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px ;
+    border: solid 1px pink;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px blue;
+}
+a:active {
+    box-shadow: 0px 0px 0px blue;
+    margin-top: 1px;
+    margin-left: 1px;
+}

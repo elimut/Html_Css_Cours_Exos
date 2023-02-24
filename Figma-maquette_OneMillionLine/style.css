@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #000000;
+    padding-top: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.burger{
+    padding: 5px;
+    margin: 5px 5px;
+    width: 15px;
+    height: 15px;    
+    color: #ffffff;
+    border: 0.03px solid rgba(255, 255, 255, 0.194);
+    border-radius: 3px;
+}
+section{
+    background-image: url('./images/fond_header.png');
+    /* .car dossier au dessus */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* prend tt écran */
+    padding:0px;
+    /* pourquoi padding */ 
+    font-size:20px;   
+}
+.container{
+    padding:0px;
+    margin: 0px;
+    text-align: center;
+
+}
+.container .box {
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;  
+    white-space: normal;
+    padding: 15px;
+}
+h1{
+    font-weight: bold;
+}
+.container .txt{
+    text-align: center;
+} 
+.container a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #e1473931;
+    background-color: #E14739;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px;
+}
+.container a span{
+    font-size: xx-small;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    /* réduction espacement et grossissement avec fonts */
+}
+.container img{
+    width: 75px;
+	height: 75px;
+}
+main{
+   text-align: center;
+   font-size: 20px;
+}
+h2{
+    border-bottom: 1px solid #E14739;
+    padding-bottom: 3px;
+    /* espacement bordure,surligne */
+}
+h2,h3{
+    color: #E14739;
+}
+h3{
+    margin-top: -5px;
+    margin-bottom: -20px;
+}
+.flexmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.flexmain img{
+    width: 150px;
+	height: 150px;
+}
+.flexmain span{
+    color:#E14739;
+}
+.flexmain .test{
+    padding: 5px;
+}
+.back{
+    background-color: rgba(236, 235, 235, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.back .test2{
+    margin: 5px;
+    padding: 5px;
+}
+.back i{
+    margin-top: 20px;
+    border:1px solid #000000;
+    border-radius: 60%; 
+    padding: 10px;   
+    color:#ffffff;
+    background-color: #000000;
+}
+.back a{
+    color: #E14739;
+    text-decoration: none;
+    border: 1.5px solid #00000031;
+    background-color:#ffffff;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 5px;
+    margin-top:-10px;
+    margin-bottom: 15px;
+}
+.back span{
+    font-weight: bold;
+    font-size: xx-small;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+}
+footer{
+    background-color: #E14739;
+    padding-top: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.footer i{
+    text-decoration: none;
+    color: #000000;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    /* Les pages « profondes » nécessitent des ancres nommées « TOP » */
+    /* L’étape suivante consiste à créer le code CSS attaché au calque sur lequel nous allons ensuite déposer cette image.
+Le but est de coller ce calque en bas à droite de l’écran de l’internaute : */
+}

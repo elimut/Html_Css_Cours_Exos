@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b01e9a2c;
+    font-family: sans-serif;
+}
+button{
+    width: 150px;
+    /* taille btn */
+}
+.titre{
+    display: flex;
+    justify-content: flex-start;
+}
+.titre img{
+    width: 140px;
+    height: 120px;
+    margin: 15px;
+}
+.textetitre{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.textetitre h1{
+    text-align: center;
+    font-size: 25px;
+}
+.textetitre p{
+    margin: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+nav{
+    margin: 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    background-color: #b01e9a;
+    justify-content: space-around;
+}
+.listenav ul{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+.listenav ul li{
+    list-style: none;
+    margin: 20px 25px 20px;
+}
+.listenav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.form{
+    background-color: #b01e9a;
+    display: flex;
+    justify-content: flex-end;
+}
+.form input{
+    background-color: #b01e9a;
+    border: 2px solid #ffffff;
+    padding: 5px;
+}
+.form input::placeholder{
+    color: #ffffff;
+    text-decoration: none;
+    /* Le pseudo-élément ::placeholder représente le texte de substitution (en-US) pour un élément <input> ou <textarea>. Cela permet aux développeurs web de personnaliser l'apparence de ce texte. */
+}
+.form #glass{
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    padding-top:5px;
+}
+#glass i{
+    text-decoration: none;
+    color: #b01e9a;
+}
+#imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 30px;
+}
+#imgs img{
+    width: 1250px; 
+    max-height: 100%; 
+}
+#test{
+    /* display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    gap: 20px; */
+    display: grid;
+    grid-template-columns: 12 1fr;
+    grid-gap: 20px;
+}
+.chat1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #b01e9a;
+    grid-column: 1 /8;
+    grid-row: 1 / 5;
+}
+.chat1 img{
+    width: 100px;
+}
+h2{
+    background-color: #b01e9a;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+    margin: -1px;
+}
+#legend{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 15px;
+}
+#legend img{
+    width: 300px;
+}
+#legend img,legend{
+    padding: 15px;
+}
+#legend legend{
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+.chat1 #btn{
+    padding: 35px;
+}
+.chat1 button{
+    background-color: #b01e9a;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    text-align: center;
+}
+.chat1 #btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.photo p{
+    font-size:16px;
+    text-align: left;
+    margin-bottom:30px;
+    margin-left: 15px;
+}
+.triple{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+#cat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.listepaw{
+    color: #b01e9a;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.listepaw i{
+    padding:10px;
+}
+.listepaw i:first-child{
+    margin-left: 15px;
+}
+.listepaw i:last-child{
+    color: #b01e9a52;
+}
+.chat2{
+    border: 2px solid #b01e9a;
+    height: 40%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.chat2 h2{
+    text-align: center;
+}
+.chat2 #vid{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+iframe{
+    width:300px;
+}
+.chat2 button{
+    background-color: #b01e9a;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    text-align: center;
+    margin-top: 15px;
+}
+#p{
+    padding: 50px;
+    text-align: left;
+    margin: 40px;
+}
+.miaou1,.miaou{
+    border: 2px solid #b01e9a;
+}
+.miaou {
+    grid-column: 8 / 13;
+    grid-row: 2 / 4;
+    /* base 12 colonnes */
+    /* 5 rangées */
+}
+.miaou1 {
+    grid-column: 8 / 13;
+    grid-row: 1 / 2;
+}
+
