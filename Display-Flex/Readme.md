@@ -1,1 +1,1 @@
-Comment mettre en place un favicon
+Display flex généralités
